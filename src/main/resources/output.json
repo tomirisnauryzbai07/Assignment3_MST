@@ -1,0 +1,54 @@
+[
+  {"graph_id": 1,
+    "Prim": [
+      {"from": "A",
+        "to": "C",
+        "weight": 3},
+      {"from": "B",
+        "to": "C",
+        "weight": 2},
+      {"from": "B",
+        "to": "D",
+        "weight": 5},
+      {"from": "D",
+        "to": "E",
+        "weight": 6}
+    ], "Kruskal": [
+      {"from": "B",
+        "to": "C",
+        "weight": 2},
+      {"from": "A",
+        "to": "C",
+        "weight": 3},
+      {"from": "B",
+        "to": "D",
+        "weight": 5},
+      {"from": "D",
+        "to": "E",
+        "weight": 6}
+    ]
+  },
+  {"graph_id": 2,
+    "Prim": [
+      {"from": "A",
+        "to": "B",
+        "weight": 1},
+      {"from": "B",
+        "to": "C",
+        "weight": 2},
+      {"from": "C",
+        "to": "D",
+        "weight": 3}
+    ], "Kruskal": [
+      {"from": "A",
+        "to": "B",
+        "weight": 1},
+      {"from": "B",
+        "to": "C",
+        "weight": 2},
+      {"from": "C",
+        "to": "D",
+        "weight": 3}
+    ]
+  }
+]
